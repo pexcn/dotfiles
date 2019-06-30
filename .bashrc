@@ -194,4 +194,4 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 HISTFILESIZE=5000
-HISTSIZE=100
+HISTSIZE=1000

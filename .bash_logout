@@ -2,4 +2,6 @@
 # ~/.bash_logout
 #
 
-gpgconf --kill gpg-agent
+if pgrep -x "gpg-agent" > /dev/null; then
+  gpgconf --kill gpg-agent
+fi

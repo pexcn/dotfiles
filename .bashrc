@@ -192,6 +192,7 @@
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias tree='tree -aC'
 
 HISTFILESIZE=5000
 HISTSIZE=1000

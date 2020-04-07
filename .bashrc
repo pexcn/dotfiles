@@ -11,7 +11,7 @@ PS1='\[\033[01;32m\]\u\[\033[01;33m\]@\[\033[01;31m\]\h\[\033[00m\] \[\033[01;34
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias tree='tree -aC'
+alias tree='tree -C'
 
 HISTFILESIZE=5000
 HISTSIZE=1000

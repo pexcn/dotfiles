@@ -189,10 +189,12 @@
 # 
 # alias cd=cd_func
 
+# set history size
+HISTFILESIZE=10000
+HISTSIZE=5000
+
+# set alias
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias tree='tree -C'
-
-HISTFILESIZE=5000
-HISTSIZE=1000

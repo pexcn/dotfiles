@@ -5,9 +5,7 @@ Dotfiles for ArchLinux.
 ## Install
 
 ```bash
-git clone https://github.com/pexcn/dotfiles.git
-cd dotfiles
+git clone https://github.com/pexcn/dotfiles.git && cd dotfiles
 ./install.sh [user]
-cd ..
-rm -r dotfiles
+cd .. && rm -r dotfiles
 ```

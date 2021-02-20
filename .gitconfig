@@ -1,6 +1,7 @@
 [user]
 	name = pexcn
 	email = i@pexcn.me
+	signingkey = 69454CEE
 [color]
 	ui = auto
 [core]
@@ -13,3 +14,5 @@
 	cp = cherry-pick
 [pull]
 	ff = only
+[commit]
+	gpgsign = true

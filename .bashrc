@@ -8,10 +8,10 @@
 # PS1
 PS1='\[\033[01;32m\]\u\[\033[01;33m\]@\[\033[01;31m\]\h\[\033[00m\] \[\033[01;34m\]\w \[\033[00m\]\$ '
 
-# set language
-LANGUAGE=zh_CN.UTF-8
-LC_ALL=zh_CN.UTF-8
+# set locale
 LANG=zh_CN.UTF-8
+LANGUAGE=zh_CN:zh_HK:zh_TW:en_US
+LC_COLLATE=C
 
 # set history size
 HISTFILESIZE=10000

@@ -4,3 +4,5 @@ Columns=100
 Rows=30
 Transparency=high
 Language=@
+Locale=zh_CN
+Charset=UTF-8@cjknarrow

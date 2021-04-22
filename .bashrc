@@ -189,14 +189,14 @@
 # 
 # alias cd=cd_func
 
-# set history size
-HISTFILESIZE=10000
-HISTSIZE=5000
-
 # set locale
 LANG=zh_CN.UTF-8
 LANGUAGE=zh_CN:zh_HK:zh_TW:en_US
 LC_COLLATE=C
+
+# set history size
+HISTFILESIZE=10000
+HISTSIZE=5000
 
 # set alias
 eval "$(dircolors -b)"

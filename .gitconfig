@@ -17,3 +17,5 @@
 	defaultBranch = master
 [format]
 	signoff = true
+[pager]
+	branch = false

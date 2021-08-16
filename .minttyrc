@@ -6,3 +6,4 @@ Locale=zh_CN
 Charset=UTF-8@cjknarrow
 Transparency=high
 Language=@
+CtrlShiftShortcuts=yes

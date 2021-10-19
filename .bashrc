@@ -17,6 +17,9 @@ LC_COLLATE=C
 HISTFILESIZE=10000
 HISTSIZE=5000
 
+# disable less history file
+LESSHISTFILE=-
+
 # set alias
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'

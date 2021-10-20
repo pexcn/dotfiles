@@ -18,7 +18,7 @@ HISTFILESIZE=10000
 HISTSIZE=5000
 
 # disable less history file
-LESSHISTFILE=-
+export LESSHISTFILE=-
 
 # set alias
 eval "$(dircolors -b)"

@@ -9,7 +9,7 @@ TARGET_HOME=$(eval echo "~$TARGET_USER")
 
 IGNORE_FILES=".git README.md install.sh"
 find . -maxdepth 1 ! -path . $(printf " ! -name %s" $IGNORE_FILES) -print0 | xargs -0 chown -R $TARGET_USER:$TARGET_USER
-find . -maxdepth 1 ! -path . $(printf " ! -name %s" $IGNORE_FILES) -print0 | xargs -0 cp -r -p -t $TARGET_HOME
+find . -maxdepth 1 ! -path . $(printf " ! -name %s" $IGNORE_FILES) -print0 | xargs -0 cp -a -r -p -t $TARGET_HOME
 
 echo "Install user: $TARGET_USER"
 echo "Install path: $TARGET_HOME"

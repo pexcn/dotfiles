@@ -206,3 +206,4 @@ eval "$(dircolors -b)"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias tree='tree -C'
+alias sshx="ssh -o ProxyCommand='nc -x 127.0.0.1:1080 %h %p'"

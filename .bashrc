@@ -21,7 +21,6 @@ HISTSIZE=5000
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias tree='tree -C'
-alias docker-compose='docker compose'
 
 # disable pager
 PAGER=

@@ -6,6 +6,7 @@
 	ui = auto
 [core]
 	editor = nano
+	quotePath = false
 [log]
 	date = iso
 [alias]

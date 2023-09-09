@@ -6,6 +6,6 @@ Dotfiles for MSYS2.
 
 ```bash
 git clone https://github.com/pexcn/dotfiles.git -b msys2 && cd dotfiles
-./install.sh [user]
+./install.sh
 cd .. && rm -r dotfiles
 ```

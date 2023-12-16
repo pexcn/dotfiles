@@ -10,18 +10,18 @@ PS1='\[\033[01;32m\]\u\[\033[01;33m\]@\[\033[01;31m\]\h\[\033[00m\] \[\033[01;34
 
 # set locale
 LANG=zh_CN.UTF-8
-LANGUAGE=zh_CN:zh_HK:zh_TW:en_US
+LANGUAGE=zh_CN:zh_TW:en_US
 LC_COLLATE=C
 
 # set history size
 HISTFILESIZE=10000
 HISTSIZE=5000
 
-# disable less history file
-export LESSHISTFILE=-
-
 # set alias
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias tree='tree -C'
+
+# disable less history file
+#export LESSHISTFILE=-

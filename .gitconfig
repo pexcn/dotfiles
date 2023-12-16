@@ -16,7 +16,7 @@
 	ff = only
 [init]
 	defaultBranch = master
-[format]
-	signoff = true
-[pager]
-	branch = false
+#[format]
+#	signoff = true
+#[pager]
+#	branch = false

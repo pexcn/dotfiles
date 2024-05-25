@@ -24,4 +24,4 @@ alias grep='grep --color=auto'
 alias tree='tree -C'
 
 # disable less history file
-#export LESSHISTFILE=-
+export LESSHISTFILE=-

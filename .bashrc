@@ -19,6 +19,9 @@ HISTSIZE=5000
 
 # set alias
 eval "$(dircolors -b)"
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias tree='tree -C'

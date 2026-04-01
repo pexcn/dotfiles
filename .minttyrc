@@ -7,3 +7,5 @@ Charset=UTF-8@cjknarrow
 Transparency=high
 Language=@
 CtrlShiftShortcuts=yes
+ThemeDark=mintty
+MiddleClickAction=void

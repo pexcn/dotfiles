@@ -191,12 +191,12 @@
 
 # set locale
 LANG=zh_CN.UTF-8
-LANGUAGE=zh_CN:zh_HK:zh_TW:en_US
+LANGUAGE=zh_CN:zh_TW:en_US
 LC_COLLATE=C
 
 # set history size
-HISTFILESIZE=10000
-HISTSIZE=5000
+HISTFILESIZE=20000
+HISTSIZE=10000
 
 # disable less history file
 export LESSHISTFILE=-
